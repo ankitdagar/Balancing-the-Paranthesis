@@ -1,0 +1,28 @@
+#Mr.Ankit.Dagar_M.A.D.
+test_str=str(input("Enter you string:-> "))
+
+
+counter_a = test_str.count('[') 
+counter_b = test_str.count(']')
+counter_c = test_str.count('(')
+counter_d = test_str.count(')')
+counter_e = test_str.count('{')
+counter_f = test_str.count('}')
+
+k=str(counter_a)
+l=str(counter_b)
+m=str(counter_c)
+n=str(counter_d)
+o=str(counter_e)
+p=str(counter_f)
+
+if k==l:
+    if m==n:
+        if o==p:
+            print("Parenthesis Balanced!!")
+        else:
+            print("Not Balanced!")
+    else:
+        print("Not Balanced!")
+else:
+    print("Not Balanced!")
